@@ -1,0 +1,48 @@
+.range__tittle{
+    text-align: center;
+    color: #333;
+    font-weight: 700;
+    font-size: 32px;
+    font-family: Poppins;
+    margin-top: 55px;
+}
+.range__info{
+    color: #666;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+.range__list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    li{
+        list-style-type: none;
+    }
+    .din__info{
+        text-align: center;
+        font-size: 24px;
+        font-family: Poppins;
+        font-weight: 600;
+        color: #333;
+        margin-top: 16px;
+    }
+    .liv__info{
+        text-align: center;
+        font-size: 24px;
+        font-family: Poppins;
+        font-weight: 600;
+        color: #333;
+        margin-top: 16px;
+    }
+    .bed__info{
+        text-align: center;
+        font-size: 24px;
+        font-family: Poppins;
+        font-weight: 600;
+        color: #333;
+        margin-top: 16px;
+    }
+}

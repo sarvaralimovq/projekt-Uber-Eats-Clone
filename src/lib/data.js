@@ -6,3 +6,11 @@ export const shopData = [
             
     },
 ]
+export const homeProdukt =[
+    {
+        id:1,
+        img:'',
+        name:'',
+            
+    },
+]

@@ -8,8 +8,9 @@
     .shopHero__inner {
         text-align: center;
 
+
         h1 {
-            padding-top: 121px;
+            padding-top: 75px;
             color: #000;
             font-family: Poppins;
             font-size: 48px;
@@ -19,10 +20,12 @@
         }
 
         span {
-
+            margin: 0 auto;
             width: 121px;
             display: flex;
             justify-content: space-between;
+            height: 30px;
+            align-items: center;
 
             a {
                 text-decoration: none;
@@ -31,9 +34,17 @@
                 font-style: normal;
                 font-weight: 500;
                 line-height: normal;
-                &::after{
+
+                &:hover {
+                    text-decoration: underline green  ;
+                    color: rgb(255, 149, 10);
+                }
+
+                &::after {
                     content: '>';
-                    font-size: 30px;
+                    font-size: 20px;
+                    margin-left: 10px;
+                    text-decoration: none !important;
                 }
             }
         }

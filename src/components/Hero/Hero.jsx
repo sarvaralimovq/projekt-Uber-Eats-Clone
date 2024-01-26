@@ -10,7 +10,7 @@ function Hero() {
           <div className="hero__next-inner">
             <p className='next__inner-p'>New Arrival</p>
             <h1 className='next__innner-tittle'>Discover Our <br /> New Collection</h1>
-            <p className='next__inner-info'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
+            <p className='next__inner-info'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.Ut <br /> elit tellus, luctus nec ullamcorper mattis.</p>
             <button className='next__btn'>BUY NOW</button>
           </div>
         </div>

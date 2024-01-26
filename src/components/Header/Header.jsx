@@ -15,12 +15,12 @@ function Header() {
           <div className="betw-div">
             <ul className='betw__div-list'>
               <li className='betw__div-inner'>
-                <Link>
+                <Link to={'/'}>
                 Home
                 </Link>
               </li>
               <li className='betw__div-inner'>
-                <Link>
+                <Link to={'/shop'}>
                 Shop
                 </Link>
               </li>

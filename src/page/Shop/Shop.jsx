@@ -1,9 +1,11 @@
 import React from 'react'
-
+import ShopHero from '../../components/ShopHero/ShopHero'
+ 
 function Shop() {
   return (
     <div className='Shop'>
-        <h1>Shop</h1>
+    <ShopHero/>
+      
     </div>
   )
 }

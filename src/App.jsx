@@ -5,11 +5,13 @@ import About from './page/About/About';
 import Contact from './page/Contact/Contact';
 import Home from './page/Home/Home';
 import Shop from './page/Shop/Shop';
+import Hero from './components/Hero/Hero';
 
 function App() {
   return (
     <div className="App">
       <Header/>
+      <Hero/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/shop' element={<Shop/>}/>

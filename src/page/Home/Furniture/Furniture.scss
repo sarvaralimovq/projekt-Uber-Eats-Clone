@@ -1,0 +1,43 @@
+.furniture__info{
+    margin-top: 67px;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    color: #616161;
+}
+.furniture__tittle{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    color: #3A3A3A;
+}
+.furniture-small{
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        li{
+            list-style-type: none;
+        }
+        .fur-1{
+            // width: -274px;
+            height: 382px;
+        }
+        .fur-2{
+            width: 451px;
+            margin-top: 70px;
+            margin-left: -23px;
+        }
+        .fur-3{
+            width: 295px;
+            margin-left: -66px;
+        }
+    }
+}

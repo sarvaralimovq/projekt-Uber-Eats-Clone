@@ -6,11 +6,25 @@
     font-weight: 700;
     line-height: 120%; 
     color: #3A3A3A;
+    margin-top: 112px;
 }
-ul{
-    li{
-        width: 285px;
-        height: 446px;
+.oram{
+
+    ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;    
+        margin-top: 32px;
+        li{
+            position: relative;
+            width: 285px;
+            height: 446px;
+            list-style-type: none;
+            top: 24;
+        background-color: #F4F5F7;
+        margin-top: 32px;
+        // border: 1px solid red;   
     }
     img{
         width: 100%;
@@ -50,7 +64,52 @@ ul{
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
-        text-decoration-line: strikethrough;
+        text-decoration-line: line-through;
         color: #B0B0B0;
+        margin-top: 10px;
+        margin-right: 40px;
     }
+    .all__price{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .skidka{
+        position: absolute;
+        padding: 12px 1px 12px 5px;
+        background-color: #E97171;
+        border-radius: 50%;
+        top: 0;
+        right: 0;
+        margin-top: 24px;
+        margin-right: 24px;
+        color: white;
+    }
+    .srog{
+        position: absolute;
+        padding: 12px 5px 12px 8px;
+        font-size: 16px;
+        font-weight: 500;
+        font-family: Poppins;
+        background-color: #2EC1AC;
+        top: 0;
+        right: 0;
+        border-radius: 50%;
+        margin-top: 24px;
+        margin-right: 24px;
+        color: white;
+    }
+}
+}
+.product__btn{
+    padding: 12px 74px 12px 82px;
+    border: 1px solid #B88E2F;
+    color: #B88E2F;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Poppins;
+    line-height: 150%;
+    margin-left: 510px;
+    margin-top: 32px;
+    margin-bottom: 69px;
 }

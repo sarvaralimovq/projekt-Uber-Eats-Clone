@@ -6,6 +6,7 @@ function Products() {
   return (
     <div className='Products'>
        <div className="container">
+       <div className="oram">
        <h1 className='products__tittle'>Our Products</h1>
         <ul className='products__list'>
           {
@@ -14,13 +15,18 @@ function Products() {
                   <img src={item.img} alt="item.img" />
                   <h3>{item.name}</h3>
                   <p className='p-info'>{item.info}</p>
+                  <span className='all__price'>
                   <p className='pr-info'>Rp{item.price}</p>
                   <p className='ol__p-info'>{item.oldprice}</p>
-                  <span>{item.chegirma}</span>
+                  </span>
+                  <span className='skidka'>{item.chegirma}</span>
+                  <span className='srog'>{item.srog}</span>
               </li>
             ))
           }
         </ul>
+       </div>
+        <button className='product__btn'>Show More</button>
        </div>
     </div>
   )

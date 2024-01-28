@@ -19,8 +19,8 @@ function Products() {
                   <p className='pr-info'>Rp{item.price}</p>
                   <p className='ol__p-info'>{item.oldprice}</p>
                   </span>
-                  <span className='skidka'>{item.chegirma}</span>
-                  <span className='srog'>{item.srog}</span>
+                  <span className={item.chegirma? 'skidka':null}>{item.chegirma}</span>
+                  <span className={item.srog? 'srog':null}>{item.srog}</span>
               </li>
             ))
           }

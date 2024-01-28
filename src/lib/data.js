@@ -32,8 +32,8 @@ export const homeProdukt =[
         info:'Stylish cafe chair',
         price:'2.500.000',
         oldprice:'',
-        chegirma:'',
-        srog:'',
+        // chegirma:'',
+        // srog:'',
     },
     {
         id:3,
@@ -43,7 +43,6 @@ export const homeProdukt =[
         price:'7.000.000',
         oldprice:'14.000.000',
         chegirma:'-50%',
-        srog:'',
     },
     {
         id:4,
@@ -51,8 +50,6 @@ export const homeProdukt =[
         name:'Respira',
         info:'Outdoor bar table and stool',
         price:'500.000',
-        oldprice:'',
-        chegirma:'',
         srog:'New',
     },
     {
@@ -61,9 +58,7 @@ export const homeProdukt =[
         name:'Grifo',
         info:'Night lamp',
         price:'1.500.000',
-        oldprice:'',
-        chegirma:'',
-        srog:'',
+        chegirma:'-30%',
     },
     {
         id:6,
@@ -71,9 +66,7 @@ export const homeProdukt =[
         name:'Muggo',
         info:'Small mug',
         price:'150.000',
-        oldprice:'',
-        chegirma:'',
-        srog:'New',
+
     },
     {
         id:7,
@@ -83,7 +76,6 @@ export const homeProdukt =[
         price:'7.000.000',
         oldprice:'14.000.000',
         chegirma:'-50%',
-        srog:'',
     },
     {
         id:8,
@@ -91,8 +83,6 @@ export const homeProdukt =[
         name:'Potty',
         info:'Minimalist flower pot',
         price:'500.000',
-        oldprice:'',
-        chegirma:'',
         srog:'New',
     },
 ]

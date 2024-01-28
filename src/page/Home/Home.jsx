@@ -2,14 +2,17 @@ import React from 'react'
 import Hero from '../../components/Hero/Hero'
 import Products from './Products/Products'
 import Range from './Range/Range'
+import Rooms from './Rooms/Rooms'
+import Furniture from './Furniture/Furniture'
 
 function Home() {
   return (
     <div className='Home'>
-        <h1>Home</h1>
         <Hero/>
         <Range/>
         <Products/>
+        <Rooms/>
+        {/* <Furniture/> */}
     </div>
   )
 }

@@ -25,6 +25,7 @@
             top: 24;
             background-color: #F4F5F7;
             margin-top: 32px;
+            transition: all 10s ease;
             .Products__bottom{
                 display: none;
             }
@@ -38,10 +39,8 @@
                     top: 0;
                     display: block;
                     right: 0;
-                    
                 }
-        }
-        // border: 1px solid red;   
+        }  
     }
     img{
         width: 100%;

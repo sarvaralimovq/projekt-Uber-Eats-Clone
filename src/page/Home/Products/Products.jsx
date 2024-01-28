@@ -1,6 +1,7 @@
 import React from 'react'
 import './Products.scss'
 import { homeProdukt } from '../../../lib/data'
+import { Link } from 'react-router-dom'
 
 function Products() {
   return (
@@ -22,8 +23,10 @@ function Products() {
                   <span className={item.chegirma? 'skidka':null}>{item.chegirma}</span>
                   <span className={item.srog? 'srog':null}>{item.srog}</span>
                   <span className='Products__bottom'>
-                      <button>send</button>
-                     share
+                      <button className='pr__bottom_btn'>Add to cart</button>
+                      <Link className='product__share'><i class="bi bi-share"></i>Share</Link>
+                      <Link className='product__compare'><i class="bi bi-arrow-left-right"></i>Compare</Link>
+                      <Link className='product__layk'><i class="bi bi-heart"></i>Layk</Link>
                   </span>
               </li>
             ))

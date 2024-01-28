@@ -4,6 +4,7 @@ import Products from './Products/Products'
 import Range from './Range/Range'
 import Rooms from './Rooms/Rooms'
 import Furniture from './Furniture/Furniture'
+import Footer from './Footer/Footer'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
         <Products/>
         <Rooms/>
         {/* <Furniture/> */}
+        <Footer/>
     </div>
   )
 }

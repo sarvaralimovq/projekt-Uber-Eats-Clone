@@ -1,16 +1,12 @@
 import React from 'react'
-import './Products.scss'
-import { homeProdukt } from '../../../lib/data'
-
-function Products() {
+import './ShopDataCenter.scss'
+import { shopData } from '../../lib/data'
+function ShopDataCenter() {
   return (
-    <div className='Products'>
-       <div className="container">
-       <div className="oram">
-       <h1 className='products__tittle'>Our Products</h1>
-        <ul className='products__list'>
-          {
-            homeProdukt?.map((item,index)=> (
+    <div className='ShopDataCenter'>
+            <ul>
+            {
+                shopData?.map((item,index)=> (
               <li key={index}>
                   <img src={item.img} alt="item.img" />
                   <h3>{item.name}</h3>
@@ -21,19 +17,12 @@ function Products() {
                   </span>
                   <span className={item.chegirma? 'skidka':null}>{item.chegirma}</span>
                   <span className={item.srog? 'srog':null}>{item.srog}</span>
-                  <span className='Products__bottom'>
-                      <button>send</button>
-                     share
-                  </span>
               </li>
             ))
           }
-        </ul>
-       </div>
-        <button className='product__btn'>Show More</button>
-       </div>
+            </ul>
     </div>
   )
 }
 
-export default Products
+export default ShopDataCenter
